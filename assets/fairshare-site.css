@@ -1,0 +1,62 @@
+#maincontainer {
+  margin-top: 60px;
+}
+
+#footer {
+  text-align: center;
+}
+
+.homepage .jumbotron {
+  text-align: center;
+}
+
+.comments .media-body .media-heading,
+.ubi-comments .media-body .media-heading {
+  float: left;
+  margin-right: 0.5em;
+}
+.media-body .md {
+  clear: both;
+}
+
+.media-body .btn-remove {
+  float: right;
+}
+
+img.media-object {
+  max-width: 75px;
+  max-height: 75px;
+}
+
+.wiki .toc {display: none;}
+
+.md p {
+  max-width: 42em;
+  hyphens: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.md p a,
+.md p strong,
+.md p em {
+  word-break: break-all;
+}
+
+.panel-body > .md > h1 > a[href='http://fairshare.website'],
+.panel-body > .md > h1 > a[href='https://www.reddit.com/api/v1/authorize?client_id=Eb_FuUtIEDgkFw&state=214&redirect_uri=http%3A%2F%2Ffair-share.github.io%2F%23%2F%3F&response_type=token&scope=submit%20identity'] {
+  display: none;
+}
+
+.address-page .qr-code {
+  margin-top: 2em;
+}
+
+
+/*footer.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  background-color: #f5f5f5;
+}*/
